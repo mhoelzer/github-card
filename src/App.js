@@ -30,7 +30,7 @@ class App extends Component {
       <div className="main">
         <br />
         <Container>
-          <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt}>:)</Button>
+          <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt}><i class="material-icons">music_note</i></Button>
           {this.state.active ?
             <div>
               {/* <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt} icon="clear"></Button>  --> if do this, put the above where null is */}
