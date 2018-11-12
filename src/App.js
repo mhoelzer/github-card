@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Button, Card, CardTitle, Container } from 'react-materialize';
 
 const GITHUB_URL = "https://api.github.com/users/mhoelzer";
 
@@ -13,8 +14,8 @@ class App extends Component {
     fetch(GITHUB_URL)
       .then(response => response.json())
       .then(githubInfo => {
-        this.setState({user: githubInfo});
-        console.log({githubInfo});
+        this.setState({ user: githubInfo });
+        console.log({ githubInfo });
         // console.log({user: githubInfo}); // same as above
       })
       .catch(err => console.log(`${err} error error error`));
@@ -26,22 +27,27 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <button onClick={this.handleClickMeButt}>Click Me</button>
-        <div>
-          {this.state.active ? 
+      <div className="main">
+        <br />
+        <Container>
+          <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt} icon="add"></Button>
+          {this.state.active ?
             <div>
-              <img src={this.state.user.avatar_url}/>
-              <p>Name: {this.state.user.name}</p>
-              <p>Username: {this.state.user.login}</p>
-              <p>Portfolio: 
-                <a href={this.state.user.blog} target="_blank">{this.state.user.blog}</a>
-              </p>
-              <p>Public Repositories: {this.state.user.public_repos}</p>
+              {/* <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt} icon="clear"></Button>  --> if do this, put the above where null is */}
+              <Card horizontal
+                header={
+                  <CardTitle image={this.state.user.avatar_url} />
+                }
+                actions={[<p>Portfolio: <a href={this.state.user.blog} target="_blank">{this.state.user.blog}</a></p>]}
+              >
+                <p>Name: {this.state.user.name}</p>
+                <p>Username: {this.state.user.login}</p>
+                <p>Public Repositories: {this.state.user.public_repos}</p>
+              </Card>
             </div>
-          : null}
+            : null}
           {/* could also do this.state.active && ... and leave off the : null */}
-        </div>
+        </Container>
       </div>
     );
   }
