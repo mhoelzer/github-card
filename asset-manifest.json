@@ -1,14 +1,14 @@
 {
-  "main.css": "/github-card/static/css/main.dd84e5c0.chunk.css",
-  "main.js": "/github-card/static/js/main.94f7a69e.chunk.js",
-  "main.js.map": "/github-card/static/js/main.94f7a69e.chunk.js.map",
-  "static/js/1.1a2fe23b.chunk.js": "/github-card/static/js/1.1a2fe23b.chunk.js",
-  "static/js/1.1a2fe23b.chunk.js.map": "/github-card/static/js/1.1a2fe23b.chunk.js.map",
+  "main.css": "/github-card/static/css/main.cf727a4e.chunk.css",
+  "main.js": "/github-card/static/js/main.24614532.chunk.js",
+  "main.js.map": "/github-card/static/js/main.24614532.chunk.js.map",
+  "static/js/1.0cdd6f18.chunk.js": "/github-card/static/js/1.0cdd6f18.chunk.js",
+  "static/js/1.0cdd6f18.chunk.js.map": "/github-card/static/js/1.0cdd6f18.chunk.js.map",
   "runtime~main.js": "/github-card/static/js/runtime~main.e5813c92.js",
   "runtime~main.js.map": "/github-card/static/js/runtime~main.e5813c92.js.map",
   "static/media/logo.svg": "/github-card/static/media/logo.5d5d9eef.svg",
-  "static/css/main.dd84e5c0.chunk.css.map": "/github-card/static/css/main.dd84e5c0.chunk.css.map",
+  "static/css/main.cf727a4e.chunk.css.map": "/github-card/static/css/main.cf727a4e.chunk.css.map",
   "index.html": "/github-card/index.html",
-  "precache-manifest.586cb2e6758b7f2f83f372a13051b7b3.js": "/github-card/precache-manifest.586cb2e6758b7f2f83f372a13051b7b3.js",
+  "precache-manifest.80e2af8a55afe772c234518860aa3fbc.js": "/github-card/precache-manifest.80e2af8a55afe772c234518860aa3fbc.js",
   "service-worker.js": "/github-card/service-worker.js"
 }
