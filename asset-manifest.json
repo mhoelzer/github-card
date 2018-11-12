@@ -1,13 +1,13 @@
 {
   "main.css": "/github-card/static/css/main.6ec13b84.chunk.css",
-  "main.js": "/github-card/static/js/main.8507fc2e.chunk.js",
-  "main.js.map": "/github-card/static/js/main.8507fc2e.chunk.js.map",
-  "static/js/1.61a9a8c9.chunk.js": "/github-card/static/js/1.61a9a8c9.chunk.js",
-  "static/js/1.61a9a8c9.chunk.js.map": "/github-card/static/js/1.61a9a8c9.chunk.js.map",
+  "main.js": "/github-card/static/js/main.c9b0a0f7.chunk.js",
+  "main.js.map": "/github-card/static/js/main.c9b0a0f7.chunk.js.map",
+  "static/js/1.a03c4a0b.chunk.js": "/github-card/static/js/1.a03c4a0b.chunk.js",
+  "static/js/1.a03c4a0b.chunk.js.map": "/github-card/static/js/1.a03c4a0b.chunk.js.map",
   "runtime~main.js": "/github-card/static/js/runtime~main.e5813c92.js",
   "runtime~main.js.map": "/github-card/static/js/runtime~main.e5813c92.js.map",
   "static/css/main.6ec13b84.chunk.css.map": "/github-card/static/css/main.6ec13b84.chunk.css.map",
   "index.html": "/github-card/index.html",
-  "precache-manifest.4b687edeeb1e0d811e23384fc122f9f4.js": "/github-card/precache-manifest.4b687edeeb1e0d811e23384fc122f9f4.js",
+  "precache-manifest.57d557d498e4e0aa5722ea04b14d81de.js": "/github-card/precache-manifest.57d557d498e4e0aa5722ea04b14d81de.js",
   "service-worker.js": "/github-card/service-worker.js"
 }
