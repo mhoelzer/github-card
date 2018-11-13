@@ -10,17 +10,36 @@ class App extends Component {
     active: false
   };
 
-  handleClickMeButt = event => {
+  // handleClickMeButt = event => {
+  //   fetch(GITHUB_URL)
+  //     .then(response => response.json())
+  //     .then(githubInfo => {
+  //       this.setState(prevState => ({
+  //         // the () implicitly returns it
+  //         user: githubInfo, 
+  //         active: !prevState.active
+  //       }));
+  //       console.log({githubInfo});
+  //       // console.log({user: githubInfo}); // same as above
+  //     })
+  //     .catch(err => console.log(`${err} error error error`));
+  // };
+  
+  // having the fetch stuff makes it load the ifno right away when pages loads so it's there fort the user right away and doenst cause a delay when lcicking b/c already loaded and there; renders for the first time
+  componentDidMount = event => {
     fetch(GITHUB_URL)
       .then(response => response.json())
       .then(githubInfo => {
-        this.setState({user: githubInfo});
-        console.log({githubInfo});
-        // console.log({user: githubInfo}); // same as above
+        this.setState({user: githubInfo})
+        console.log({githubInfo})
       })
+        // console.log({user: githubInfo}); // same as above
       .catch(err => console.log(`${err} error error error`));
+  };
+  
+  handleClickMeButt = event => {
     this.setState(prevState => ({
-      // console.log("hellojolnl,")
+      // the () implicitly returns it
       active: !prevState.active
     }));
   };
@@ -30,7 +49,7 @@ class App extends Component {
       <div className="main">
         <br />
         <Container>
-          <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt}>:)</Button>
+          <Button floating large className="orange waves-effect waves-red" onClick={this.handleClickMeButt}>:)</Button>
           {this.state.active ?
             <div>
               {/* <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt} icon="clear"></Button>  --> if do this, put the above where null is */}
