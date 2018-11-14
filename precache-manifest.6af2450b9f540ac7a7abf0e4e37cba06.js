@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3e2a0053efe3a42969e5",
+    "revision": "6f6a496254efaeb83fd2",
     "url": "/github-card/static/css/main.6ec13b84.chunk.css"
   },
   {
-    "revision": "3e2a0053efe3a42969e5",
-    "url": "/github-card/static/js/main.3e2a0053.chunk.js"
+    "revision": "6f6a496254efaeb83fd2",
+    "url": "/github-card/static/js/main.6f6a4962.chunk.js"
   },
   {
     "revision": "a03c4a0b0ffe2adc44d7",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/github-card/static/js/runtime~main.e5813c92.js"
   },
   {
-    "revision": "fe040f5ef013ee644ba46493e0017cfc",
+    "revision": "8300632872aa6ff45a182940005fa04d",
     "url": "/github-card/index.html"
   }
 ];
