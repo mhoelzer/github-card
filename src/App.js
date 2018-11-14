@@ -52,15 +52,15 @@ class App extends Component {
           <Button floating large className="orange waves-effect waves-red" onClick={this.handleClickMeButt}>:)</Button>
           {this.state.active ?
             <div>
-              {/* <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt} icon="clear"></Button>  --> if do this, put the above where null is */}
+              {/* <Button floating large className="orange btn-large waves-effect waves-red" onClick={this.handleClickMeButt} icon="clear"></Button>  --> if do this, put the above where null is with a + instead of :) */}
               <Card 
                 horizontal
                 header={<CardTitle image={this.state.user.avatar_url}/>}
-                actions={[<p>Portfolio: <a href={this.state.user.blog} target="_blank">{this.state.user.blog}</a></p>]}
+                actions={[<p><b>Portfolio:</b> <a href={this.state.user.blog} target="_blank">{this.state.user.blog}</a></p>]}
               >
-                <p>Name: {this.state.user.name}</p>
-                <p>Username: {this.state.user.login}</p>
-                <p>Public Repositories: {this.state.user.public_repos}</p>
+                <p><b>Name:</b> {this.state.user.name}</p>
+                <p><b>Username:</b> {this.state.user.login}</p>
+                <p><b>Public Repositories:</b> {this.state.user.public_repos}</p>
               </Card>
             </div>
             : null}
